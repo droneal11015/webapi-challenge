@@ -3,9 +3,7 @@ const helmet = require('helmet');
 const server = express();
 const actionRouter = require('./data/helpers/actionRouter.js');
 const projectRouter = require('./data/helpers/projectRouter.js');
-const theme = {
-    backgroundcolor: "blue"
-};
+
 
 server.use(helmet());
 server.use(express.json());
